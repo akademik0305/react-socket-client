@@ -9,7 +9,7 @@ import styles from "../styles/Chat.module.css";
 // emoji
 import icon from "../images/emoji.svg";
 
-const socket = io.connect("http://localhost:8000");
+const socket = io.connect("https://react-socket-server-wymn.onrender.com");
 
 const Chat = () => {
   const navigate = useNavigate();
